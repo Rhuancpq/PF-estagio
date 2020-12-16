@@ -15,5 +15,6 @@ def readCSV(name):
                 "telefone": int(dic[2]),
                 "idade": int(dic[3])}
         res.append(dic)
+    f.close()
     return sorted(res, key=lambda k: k["nome"])
 
