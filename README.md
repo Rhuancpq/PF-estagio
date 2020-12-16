@@ -1,5 +1,5 @@
 # PF Estágio
-Este arquivo contém as explicações dos algoritmos elaborados como solução para os problemas dados
+Este arquivo contém as explicações dos algoritmos, elaborados como solução para os problemas dados.
 
 ## Problema 1
 Dado uma lista de dicionários (chave/valor) Python, verifique se existe a chave 'nome', e caso exista, salve o valor dessa chave em uma segunda lista, de modo que não haja repetição de valores na segunda lista.
@@ -12,12 +12,8 @@ Dado uma lista de dicionários (chave/valor) Python, verifique se existe a chave
 - Retorna uma lista criada a partir do set;
 
 ### Pontos chave:
-- 
-```python
-if "nome" in x
-```
-garante que só os dicts que tiverem a chave "nome" terão o contéudo adicionado ao set.
-- O set evita repetições.
+- `if "nome" in x ` garante que só os dicts que tiverem a chave "nome" terão o contéudo adicionado ao set;
+- O set evita repetições;
 
 ## Problema 2
 Dado um arquivo csv com delimitador ';' e com o seguinte cabeçalho: id;nome;telefone;idade. 
